@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Letters to a Black Woman — Submit Your Letter | Savy Publishing</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="index.html">THE <span>SAVY</span> GROUP</a>
+    <nav class="links">
+      <a href="index.html">Home</a>
+      <a href="nonprofits.html">Nonprofits</a>
+      <a href="job-apply.html">Job Apply</a>
+      <a href="letters.html">Letters</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <p class="kicker">Presented by Amarosa Daily · Published by Savy Publishing</p>
+    <h1>Letters to a <span class="gold">Black Woman</span></h1>
+    <p class="lede">Sister, I'm putting together something from the heart. A year of letters — 365 of them, one a day — written by women like us, for a Black woman who needs to hear them. Write the letter you once needed to read: about healing, starting over, loving yourself, raising your babies, finding your faith again, or just making it through the night. This isn't a business thing. It's a mission thing — women reaching back for women.</p>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <h2>Where the <span class="gold">money goes</span></h2>
+    <p class="note" style="font-size:1rem">Proceeds from book sales help cover the cost of producing these books — printing, contributor copies, and the gift cards we send our writers as a thank-you — and the rest helps fund <strong>Her Rise Academy</strong>, our community where women get help finding work-from-home jobs, grants and funding opportunities, credit improvement help, business resources, money education, and a sisterhood that actually shows up for each other. When you buy a book, you're not just buying a book. You're helping another woman rise.</p>
+    <p class="note" style="margin-top:10px">Books are titled by topic and released in the order topics fill up. They'll be sold in the Mela Reads section of Mela Finds — <strong>Mela Reads is coming soon.</strong></p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Submit <span class="gold">your letter</span></h2>
+    <p class="note"><strong>One letter per lady per month.</strong> You may submit again in a new month. Duplicate submissions are removed. Submissions are private — your letter is never posted publicly. How we handle submissions: see our <a href="privacy.html#letters-submissions">Letters privacy section</a>.</p>
+
+    <form id="letter-form" novalidate>
+      <label for="lf-topic">Topic</label>
+      <select id="lf-topic" required>
+        <option value="">Choose your topic…</option>
+        <option>Begin Again</option>
+        <option>The Letter I Needed at My Lowest</option>
+        <option>Healing After Heartbreak</option>
+        <option>Dear Mama</option>
+        <option>Single Mama Strong</option>
+        <option>Faith Through the Fire</option>
+        <option>Forgive Them, Free You</option>
+        <option>Love Yourself Out Loud</option>
+        <option>Grief &amp; Goodbye</option>
+        <option>I Survived That Too</option>
+        <option>Money, Hustle &amp; Getting Back Up</option>
+        <option>Sisterhood</option>
+        <option>To My Younger Self</option>
+        <option>Letters From the Elders</option>
+        <option>New Season, New Me</option>
+        <option>For the Woman in Waiting</option>
+        <option>Joy Is Your Birthright</option>
+        <option>When Nobody Clapped</option>
+        <option>Bare Soul (Anonymous)</option>
+        <option>To the Woman I'm Becoming</option>
+      </select>
+
+      <label for="lf-title">Letter title</label>
+      <input id="lf-title" required>
+
+      <label for="lf-name">Your legal name (required — kept private; never printed for Bare Soul)</label>
+      <input id="lf-name" required>
+
+      <label for="lf-handle">Social handle (the one you'd want printed with your letter)</label>
+      <input id="lf-handle">
+
+      <label for="lf-bio">Short bio, 2–3 sentences (skip this for Bare Soul — that volume prints anonymously)</label>
+      <textarea id="lf-bio" style="min-height:80px"></textarea>
+
+      <label for="lf-letter">Your letter — about 500–600 words, 650 maximum</label>
+      <textarea id="lf-letter" required></textarea>
+      <p class="wordcount" id="lf-count">0 / 650 words</p>
+      <p class="note">Want the writing guide for your topic? <a href="letters-details.html">More details</a></p>
+
+      <div class="checkline"><input type="checkbox" id="lf-age" required><span>I confirm I am 18 or older, and this letter is my own original writing.</span></div>
+      <div class="checkline"><input type="checkbox" id="lf-use" required><span>I grant The Savy Group LLC the right to use my letter for any project purpose — any edition of the books, the Deluxe keepsake edition, marketing and promotion, and readings in person or online — whether or not my letter is published. Promotional use is part of this project and there is no opt-out.</span></div>
+      <div class="checkline"><input type="checkbox" id="lf-pay" required><span>I have read the Full Terms and I understand the compensation terms — including that the gift card is paid only for letters published in a printed edition — and that if I am selected, I will keep my selection confidential until release and sign the final contributor agreement before print.</span></div>
+      <div class="checkline"><input type="checkbox" id="lf-edit" required><span>I give permission for light editing of my letter for spelling and clarity, with my meaning and voice preserved.</span></div>
+
+      <p style="margin-top:18px"><button class="btn" id="lf-send" type="submit" disabled>Send my letter</button></p>
+      <p class="note" style="margin-top:10px"><a href="letters-terms.html">Full terms here</a></p>
+      <p class="note" id="lf-done" style="display:none;margin-top:14px"></p>
+    </form>
+    <p class="note" style="margin-top:16px">If your letter is selected, we will contact you before anything goes to print. Letters not selected stay under consideration for future books in the series.</p>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <p>The Savy Group LLC · 3636 Old Spanish Trail, Ste B-1, PMB 268, Houston, TX 77021</p>
+    <p><a href="mailto:amarosa@thesavygroup.com">amarosa@thesavygroup.com</a> · <a href="https://instagram.com/thesavygroup">@thesavygroup on Instagram</a> · <a href="https://www.threads.net/@thesavygroup">@thesavygroup on Threads</a> · <a href="privacy.html">Privacy</a></p>
+    <p>Presented by Amarosa Daily · Published by Savy Publishing</p>
+  </div>
+</footer>
+
+<script>
+var letterBox=document.getElementById('lf-letter'),countEl=document.getElementById('lf-count'),sendBtn=document.getElementById('lf-send');
+function words(t){t=t.trim();return t?t.split(/\s+/).length:0}
+function refresh(){var n=words(letterBox.value);if(n>650){countEl.textContent='Remove '+(n-650)+' word'+(n-650===1?'':'s')+' — '+n+' / 650 words';countEl.className='wordcount over';sendBtn.disabled=true}else{countEl.textContent=n+' / 650 words';countEl.className='wordcount';sendBtn.disabled=false}}
+letterBox.addEventListener('input',refresh);refresh();
+document.getElementById('letter-form').addEventListener('submit',function(e){
+  e.preventDefault();
+  var f=function(id){return document.getElementById(id).value.trim()};
+  if(!f('lf-topic')||!f('lf-title')||!f('lf-name')||!f('lf-letter')){alert('Please complete the topic, title, your legal name, and your letter.');return}
+  if(!document.getElementById('lf-age').checked||!document.getElementById('lf-use').checked||!document.getElementById('lf-pay').checked||!document.getElementById('lf-edit').checked){alert('Please check all four boxes so we can accept your letter.');return}
+  var n=words(letterBox.value);if(n>650){alert('Your letter is over the 650-word maximum. Please trim it and send again.');return}
+  var id='LETTER-'+Math.floor(10000000+Math.random()*90000000);
+  var body='Submission ID: '+id+'\nTopic: '+f('lf-topic')+'\nLetter title: '+f('lf-title')+'\nLegal name: '+f('lf-name')+'\nSocial handle: '+f('lf-handle')+'\nBio: '+f('lf-bio')+'\nWords: '+n+'\nAgreement: I am 18 or older. This letter is my own original writing. I have read the Full Terms and I agree to them, including the use of my letter for project promotion.\n\n--- MY LETTER ---\n'+f('lf-letter');
+  window.location.href='mailto:amarosa@thesavygroup.com?subject='+encodeURIComponent('Letters Submission — '+f('lf-topic'))+'&body='+encodeURIComponent(body);
+  var done=document.getElementById('lf-done');done.style.display='block';
+  done.innerHTML='Your submission ID is <strong>'+id+'</strong>. Your email app should now open with your letter addressed privately to us — just press send there to complete your submission, and keep your ID for your records.';
+});
+</script>
+</body>
+</html>
