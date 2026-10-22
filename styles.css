@@ -60,3 +60,5 @@ footer.site a{color:var(--gold-soft);text-decoration:none}
 blockquote{background:var(--panel);border-left:3px solid var(--gold);padding:18px 22px;margin:20px 0;color:var(--muted);font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:1.18rem}
 .topic{margin:0 0 18px}
 .topic p{color:var(--muted)}
+.client-list{font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(1.25rem,2.6vw,1.55rem);font-weight:600;color:var(--cream);line-height:2.2;margin-top:10px}
+.client-list .dia{color:var(--gold);font-size:.8rem;margin:0 13px;vertical-align:middle}
